@@ -1,0 +1,8 @@
+curl --request POST \
+  --url 'https://dev-eaiy1uftsuhcosf2.jp.auth0.com/oauth/token' \
+  --header 'content-type: application/x-www-form-urlencoded' \
+  --data grant_type=authorization_code \
+  --data 'client_id=fOwjn5dkMmpM7ZwZEjdvuLarjb4qFN4W' \
+  --data 'client_secret=eM0jGkF_9xWZxBjWKim7kUxuJGrVlhDVtSbc-zNdiQotE6Lco6VzvA4XvOJXSpPg' \
+  --data 'code=wVhWXb19hRaus_xWDLDJ2gJGS9lHnDiHb4LO-7oZGTmRR' \
+  --data 'redirect_uri=https://127.0.0.1:5173/about'
